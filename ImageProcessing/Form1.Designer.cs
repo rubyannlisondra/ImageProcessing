@@ -200,7 +200,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(781, 422);
+            this.pictureBox5.Location = new System.Drawing.Point(763, 409);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(354, 342);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -209,7 +209,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(137, 770);
+            this.button1.Location = new System.Drawing.Point(155, 757);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(114, 43);
             this.button1.TabIndex = 7;
@@ -219,7 +219,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(521, 770);
+            this.button2.Location = new System.Drawing.Point(520, 757);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(152, 43);
             this.button2.TabIndex = 8;
@@ -229,7 +229,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(934, 770);
+            this.button3.Location = new System.Drawing.Point(903, 757);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(114, 43);
             this.button3.TabIndex = 9;
@@ -249,7 +249,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(403, 422);
+            this.pictureBox4.Location = new System.Drawing.Point(403, 409);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(354, 342);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -258,7 +258,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(32, 422);
+            this.pictureBox3.Location = new System.Drawing.Point(43, 409);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(354, 342);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
