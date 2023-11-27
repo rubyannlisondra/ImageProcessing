@@ -173,7 +173,7 @@ namespace ImageProcessing
         private void openFileDialog2_FileOk(object sender, CancelEventArgs e)
         {
             imageB = new Bitmap(openFileDialog2.FileName);
-            pictureBox1.Image = imageB;
+            pictureBox3.Image = imageB;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -202,13 +202,13 @@ namespace ImageProcessing
                     else
                         processed.SetPixel(x, y, backpixel);
                 }
-            pictureBox3.Image = processed;
+            pictureBox5.Image = processed;
         }
 
         private void openFileDialog3_FileOk(object sender, CancelEventArgs e)
         {
             imageA = new Bitmap(openFileDialog3.FileName);
-            pictureBox2.Image = imageA;
+            pictureBox4.Image = imageA;
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
