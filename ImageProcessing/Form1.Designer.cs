@@ -67,7 +67,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(95, 76);
+            this.pictureBox1.Location = new System.Drawing.Point(92, 49);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(354, 342);
             this.pictureBox1.TabIndex = 0;
@@ -75,7 +75,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(473, 76);
+            this.pictureBox2.Location = new System.Drawing.Point(471, 49);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(354, 342);
             this.pictureBox2.TabIndex = 2;
@@ -91,7 +91,7 @@
             this.webCamToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1211, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1232, 28);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -178,14 +178,14 @@
             // openToolStripMenuItem1
             // 
             this.openToolStripMenuItem1.Name = "openToolStripMenuItem1";
-            this.openToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.openToolStripMenuItem1.Size = new System.Drawing.Size(128, 26);
             this.openToolStripMenuItem1.Text = "Open";
             this.openToolStripMenuItem1.Click += new System.EventHandler(this.openToolStripMenuItem1_Click);
             // 
             // closeToolStripMenuItem
             // 
             this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
-            this.closeToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.closeToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
             this.closeToolStripMenuItem.Text = "Close";
             this.closeToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
             // 
@@ -200,7 +200,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(793, 484);
+            this.pictureBox5.Location = new System.Drawing.Point(781, 422);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(354, 342);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -209,7 +209,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(140, 846);
+            this.button1.Location = new System.Drawing.Point(137, 770);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(114, 43);
             this.button1.TabIndex = 7;
@@ -219,7 +219,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(526, 846);
+            this.button2.Location = new System.Drawing.Point(521, 770);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(152, 43);
             this.button2.TabIndex = 8;
@@ -229,7 +229,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(924, 846);
+            this.button3.Location = new System.Drawing.Point(934, 770);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(114, 43);
             this.button3.TabIndex = 9;
@@ -249,7 +249,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(410, 484);
+            this.pictureBox4.Location = new System.Drawing.Point(403, 422);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(354, 342);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -258,7 +258,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(32, 484);
+            this.pictureBox3.Location = new System.Drawing.Point(32, 422);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(354, 342);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -267,7 +267,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(965, 49);
+            this.pictureBox6.Location = new System.Drawing.Point(953, 49);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(182, 144);
             this.pictureBox6.TabIndex = 12;
@@ -282,7 +282,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Ivory;
-            this.ClientSize = new System.Drawing.Size(1211, 917);
+            this.ClientSize = new System.Drawing.Size(1232, 1055);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox4);
