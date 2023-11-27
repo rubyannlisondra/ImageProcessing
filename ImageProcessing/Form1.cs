@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WebCamLib;
 
 namespace ImageProcessing
 {
@@ -14,7 +15,8 @@ namespace ImageProcessing
     {
         Bitmap loaded;
         Bitmap processed;
-        Bitmap imageB, imageA, colorgreen;
+        Bitmap imageB, imageA;
+        Device webcam;
         public Form1()
         {
             InitializeComponent();
@@ -211,9 +213,44 @@ namespace ImageProcessing
             pictureBox4.Image = imageA;
         }
 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            Color videoPix;
+            Image bitmap;
+            if (webcam != null)
+            {
+                IDataObject data = Clipboard.GetDataObject();
+                if (data != null && data.GetDataPresent(DataFormats.Bitmap))
+                {
+                    bitmap = (Image)data.GetData("System.Drawing.Bitmap", true);
+                    bitmap = new Bitmap(bitmap);
+                    processed = new Bitmap(bitmap.Width, bitmap.Height);
+                    pictureBox6.Image = bitmap;
+                }
+            }
+        }
+
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
+        }
+
+        private void StartCam()
+        {
+            webcam = new Device();
+            webcam.ShowWindow(pictureBox6);
+            timer1.Start();
+        }
+
+        private void openToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            StartCam();
+        }
+
+        private void closeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            webcam.Stop();
+            timer1.Stop();
         }
 
         private void button1_Click(object sender, EventArgs e)
